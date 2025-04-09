@@ -1,0 +1,102 @@
+/* Custom styles to complement Bootstrap */
+
+/* Main container */
+.main-container {
+    min-height: calc(100vh - 56px);
+    padding-bottom: 2rem;
+}
+
+/* Card styling */
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Loading spinner */
+.loading-spinner {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Chart container */
+.chart-container {
+    height: 400px;
+    position: relative;
+}
+
+/* Form elements */
+.form-control:focus {
+    border-color: var(--bs-info);
+    box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.25);
+}
+
+/* Table styling */
+.table-responsive {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+/* Footer */
+.footer {
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+/* Fade-in animation */
+.fade-in {
+    animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Stats cards */
+.stat-card {
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    height: 100%;
+}
+
+.stat-value {
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(128, 128, 128, 0.5);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(128, 128, 128, 0.7);
+}

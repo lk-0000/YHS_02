@@ -1,0 +1,11 @@
+beautifulsoup4
+email-validator
+flask
+flask-caching
+flask-sqlalchemy
+gunicorn
+pandas
+psycopg2-binary
+requests
+trafilatura
+xlsxwriter
