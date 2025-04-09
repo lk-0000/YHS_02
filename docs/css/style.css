@@ -1,0 +1,53 @@
+/* Custom styles for the Yahoo Finance Scraper static demo */
+
+body {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.chart-container {
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.demo-note {
+    background-color: rgba(255, 193, 7, 0.2);
+    border-left: 4px solid #ffc107;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 0.25rem;
+}
+
+.github-corner {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    border-top: 1px solid #343a40;
+}
+
+@media (max-width: 768px) {
+    .btn-group {
+        display: flex;
+        width: 100%;
+    }
+    
+    .btn-group .btn {
+        flex: 1;
+    }
+    
+    #download-btn {
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }
+}

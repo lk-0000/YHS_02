@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#212529" />
+  <text x="400" y="60" font-family="Arial" font-size="28" text-anchor="middle" fill="#ffffff">Yahoo Finance Scraper</text>
+  
+  <!-- Form area -->
+  <rect x="50" y="90" width="700" height="120" rx="5" fill="#343a40" stroke="#495057" stroke-width="1" />
+  <text x="375" y="115" font-family="Arial" font-size="18" text-anchor="middle" fill="#ffffff">Stock Data Retrieval</text>
+  
+  <!-- Chart area -->
+  <rect x="50" y="230" width="700" height="200" rx="5" fill="#343a40" stroke="#495057" stroke-width="1" />
+  
+  <!-- Chart lines -->
+  <polyline points="100,350 150,330 200,310 250,325 300,300 350,290 400,270 450,280 500,250 550,265 600,240 650,220" 
+            fill="none" stroke="#0d6efd" stroke-width="2" />
+  <polyline points="100,360 150,355 200,340 250,345 300,330 350,325 400,300 450,310 500,290 550,300 600,280 650,260" 
+            fill="none" stroke="#20c997" stroke-width="2" />
+  
+  <!-- X-axis -->
+  <line x1="100" y1="380" x2="650" y2="380" stroke="#6c757d" stroke-width="1" />
+  
+  <!-- Y-axis -->
+  <line x1="100" y1="380" x2="100" y2="250" stroke="#6c757d" stroke-width="1" />
+  
+  <!-- Legend -->
+  <rect x="550" y="240" width="12" height="5" fill="#0d6efd" />
+  <text x="570" y="245" font-family="Arial" font-size="10" fill="#ffffff">Close</text>
+  <rect x="550" y="255" width="12" height="5" fill="#20c997" />
+  <text x="570" y="260" font-family="Arial" font-size="10" fill="#ffffff">Open</text>
+  
+  <text x="400" y="410" font-family="Arial" font-size="12" text-anchor="middle" fill="#6c757d">Stock price visualization with chart and table views</text>
+</svg>
